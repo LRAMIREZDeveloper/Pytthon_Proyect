@@ -85,7 +85,7 @@ app.layout = html.Div(
                                         x='flota',
                                         y='count',  # La altura de las barras es el conteo de filas por valor en 'fleet'
                                         title='Patentes por Flota',
-                                        labels={'count': 'Patentes', 'flota': 'Flota'},
+                                        labels={'count': 'Cantidad', 'flota': 'Flota'},
                                     ),
                     ),
                 ],style={'width': '100%', 'border-radius': '5px', 'box-shadow': '2px 2px 2px lightgrey', 'margin': '5px'}),
@@ -96,9 +96,9 @@ app.layout = html.Div(
         
         # Pie de pagina
         html.Footer([
-            html.H2('®2023 Transporte Santa Maria SpA.', style={'color': 'black', 'textAlign': 'center', 'line-height': '20px', 'font-family': 'Helvetica','font-size': 14}),
-            html.H3('Todos los derechos reservados.', style={'color': 'black', 'textAlign': 'center', 'font-family': 'Helvetica','font-size': 12,'top': 0}),
-        ],style={'background-color': '#FFFFFF','width': '100%', 'position': 'center'}),
+            html.H2('®2023 Transporte Santa Maria SpA.', style={'color': 'white', 'textAlign': 'center', 'line-height': '20px', 'font-family': 'Helvetica','font-size': 14}),
+            html.H3('Todos los derechos reservados.', style={'color': 'white', 'textAlign': 'center', 'font-family': 'Helvetica','font-size': 12,'top': 0}),
+        ],style={ 'box-shadow': '2px 2px 2px lightgrey','display': 'inline-block','background-color': '#2C3E50','width': '100%', 'position': 'center'}),
               
         # Intervalo de actualizacion  
         dcc.Interval(

@@ -70,7 +70,7 @@ def update_data(n):
                   y='count',
                   title='Patentes por Flota',
                   text='count',
-                  labels={'count': 'Patentes', 'flota': 'Flota'},
+                  labels={'count': 'Cantidad', 'flota': 'Flota'},
                   )
     
     # Cambiar el color de fondo de las barras

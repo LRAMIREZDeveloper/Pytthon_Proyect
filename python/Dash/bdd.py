@@ -42,17 +42,17 @@ def connection_bdd():
     
     return df
 
-def process_data_for_chart(df):
+def data_fleet(df):
     fleet_counts = df['flota'].value_counts().reset_index()
     fleet_counts.columns = ['flota', 'count']
     return fleet_counts
 
-def process_data_for_mechanic_table(df):
+def data_for_mechanic_table(df):
     tabla_mecanicos = df['mecanico'].value_counts().reset_index()
     tabla_mecanicos.columns = ['Mecánico', 'Asignadas']
     return tabla_mecanicos.to_dict('records')
 
-def process_data_for_table(df):
+def data_for_table(df):
     return df.to_dict('records')
 
 def update_data(n):
@@ -60,9 +60,9 @@ def update_data(n):
     df = connection_bdd()
 
     # Procesar datos
-    fleet_counts = process_data_for_chart(df)
-    tabla_mecanicos_data = process_data_for_mechanic_table(df)
-    tabla_data = process_data_for_table(df)
+    fleet_counts = data_fleet(df)
+    tabla_mecanicos_data = data_for_mechanic_table(df)
+    tabla_data = data_for_table(df)
 
     # Actualizar el gráfico
     fig = px.line(fleet_counts,

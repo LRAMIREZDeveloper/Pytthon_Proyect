@@ -16,21 +16,7 @@ url = f"{base_url}hiveSmanagement/API/INTEGRATIONS/{inspection_type}?page=1&limi
 response = requests.get(url, headers=headers)
 
 if response.status_code == 200:
-    data = response.json()
-    data_list = data["data"]
-
-    for entry in data_list:
-        ordered_data.append({
-            "terminal": entry["terminal"],
-            "fleet": entry["fleet"],
-            "license_plate": entry["license_plate"],
-            "has_pressure_inspection": entry["has_pressure_inspection"],
-            "has_tread_inspection": entry["has_tread_inspection"],
-            "identification": entry["identification"],
-            "inspection_date": entry["inspection_date"],
-            "month": entry["month"],
-            "year": entry["year"]
-        })
+    ordered_data.extend(response.json()["data"])
     excel_path = f"VEHICLE.xlsx"
 
     df_vehicle = pd.DataFrame(ordered_data)

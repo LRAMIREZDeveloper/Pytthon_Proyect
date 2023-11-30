@@ -5,14 +5,14 @@ from dash.dependencies import Input, Output
 from dash_bootstrap_components import themes
 import plotly.express as px
 
-from bdd import connection_bdd, process_data_for_chart,process_data_for_mechanic_table,process_data_for_table, update_data
+from bdd import connection_bdd, data_for_chart,data_for_mechanic_table,data_for_table, update_data
 from style import style_detail_data, style_table
 
 # Procesar datos
 df = connection_bdd()
-fleet_counts = process_data_for_chart(df)
-tabla_mecanicos_data = process_data_for_mechanic_table(df)
-tabla_data = process_data_for_table(df)
+fleet_counts = data_for_chart(df)
+tabla_mecanicos_data = data_for_mechanic_table(df)
+tabla_data = data_for_table(df)
 
 # Estilo definido de los datos.
 style_data, _ = style_detail_data()

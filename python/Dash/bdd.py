@@ -47,12 +47,12 @@ def data_fleet(df):
     fleet_counts.columns = ['flota', 'count']
     return fleet_counts
 
-def data_for_mechanic_table(df):
+def data_mechanic_table(df):
     tabla_mecanicos = df['mecanico'].value_counts().reset_index()
     tabla_mecanicos.columns = ['Mecánico', 'Asignadas']
     return tabla_mecanicos.to_dict('records')
 
-def data_for_table(df):
+def data_table(df):
     return df.to_dict('records')
 
 def update_data(n):
@@ -61,8 +61,8 @@ def update_data(n):
 
     # Procesar datos
     fleet_counts = data_fleet(df)
-    tabla_mecanicos_data = data_for_mechanic_table(df)
-    tabla_data = data_for_table(df)
+    tabla_mecanicos_data = data_mechanic_table(df)
+    tabla_data = data_table(df)
 
     # Actualizar el gráfico
     fig = px.line(fleet_counts,

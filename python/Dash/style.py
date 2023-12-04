@@ -155,7 +155,7 @@ def style_fromData(style_letter,tabla_ot,tabla_cantidad_taller,style_data,fleet_
                 # Intervalo de actualizacion  
                 dcc.Interval(
                     id='interval-component',
-                    interval= 10 * 1000,  # en milisegundos
+                    interval= 60 * 1000,  # en milisegundos
                     n_intervals=0
                 ),
             ],style={'backgroundColor': '#EDEDED','width': '100%'}  # Establecer el color de fondo de la página completa

@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<EnvioDTE version="1.0" xmlns="http://www.sii.cl/SiiDte" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sii.cl/SiiDte EnvioDTE_v10.xsd">
+  <SetDTE ID="IDcd81d9f1191741259f79401dcb149977">
+    <Caratula version="1.0">
+      <RutEmisor>96542490-3</RutEmisor>
+      <RutEnvia>10974377-1</RutEnvia>
+      <RutReceptor>79705390-2</RutReceptor>
+      <FchResol>2008-04-30</FchResol>
+      <NroResol>54</NroResol>
+      <TmstFirmaEnv>2026-05-25T19:33:26</TmstFirmaEnv>
+    <SubTotDTE><TpoDTE>33</TpoDTE><NroDTE>1</NroDTE></SubTotDTE></Caratula>
+  <DTE version="1.0">
+      <Documento ID="F3003224T33">
+        <Encabezado>
+          <IdDoc>
+            <TipoDTE>33</TipoDTE>
+            <Folio>3003224</Folio>
+            <FchEmis>2026-05-18</FchEmis>
+            <FmaPago>2</FmaPago>
+            <NumCtaPago>Credito 60 dias</NumCtaPago>
+            <TermPagoGlosa>Basado en Pedidos de cliente 2539937. Basado en Entregas 2854995.</TermPagoGlosa>
+            <FchVenc>2026-07-18</FchVenc>
+          </IdDoc>
+          <Emisor>
+            <RUTEmisor>96542490-3</RUTEmisor>
+            <RznSoc>TRECK S A</RznSoc>
+            <GiroEmis>Fábrica de Calzados de Seguridad</GiroEmis>
+            <Acteco>519000</Acteco>
+            <DirOrigen>Santa Rosa #5220</DirOrigen>
+            <CmnaOrigen>San Joaquin</CmnaOrigen>
+            <CiudadOrigen>Santiago</CiudadOrigen>
+            <CdgVendedor>13-Karin Burgueño Merino</CdgVendedor>
+          </Emisor>
+          <Receptor>
+            <RUTRecep>79705390-2</RUTRecep>
+            <RznSocRecep>Transportes Santa Maria  SpA.</RznSocRecep>
+            <GiroRecep>Deposito,almacenamiento y transportes</GiroRecep>
+            <DirRecep>Santa Marta 951</DirRecep>
+            <CmnaRecep>Maipu</CmnaRecep>
+            <CiudadRecep>Santiago</CiudadRecep>
+            <DirPostal>Santa Marta 951</DirPostal>
+            <CmnaPostal>Maipu</CmnaPostal>
+            <CiudadPostal>Santiago</CiudadPostal>
+          </Receptor>
+          <Totales>
+            <MntNeto>1960800</MntNeto>
+            <MntExe>0</MntExe>
+            <TasaIVA>19.00</TasaIVA>
+            <IVA>372552</IVA>
+            <MntTotal>2333352</MntTotal>
+          </Totales>
+        </Encabezado>
+        <Detalle>
+          <NroLinDet>1</NroLinDet>
+          <CdgItem>
+            <TpoCodigo>INT</TpoCodigo>
+            <VlrCodigo>06-01-379-T-S</VlrCodigo>
+          </CdgItem>
+          <CdgItem>
+            <TpoCodigo>QBLI</TpoCodigo>
+            <VlrCodigo>0</VlrCodigo>
+          </CdgItem>
+          <NmbItem>Parka Ignifuga Absolute Fire Antiestátic</NmbItem>
+          <DscItem>Parka Ignifuga Absolute Fire Antiestática FRWJT NFPA 13034 Azul Marino T-S</DscItem>
+          <QtyItem>1.000000</QtyItem>
+          <PrcItem>89600.000000</PrcItem>
+          <MontoItem>89600</MontoItem>
+        </Detalle>
+        <Detalle>
+          <NroLinDet>2</NroLinDet>
+          <CdgItem>
+            <TpoCodigo>INT</TpoCodigo>
+            <VlrCodigo>06-01-379-T-M</VlrCodigo>
+          </CdgItem>
+          <CdgItem>
+            <TpoCodigo>QBLI</TpoCodigo>
+            <VlrCodigo>0</VlrCodigo>
+          </CdgItem>
+          <NmbItem>Parka Ignifuga Absolute Fire Antiestátic</NmbItem>
+          <DscItem>Parka Ignifuga Absolute Fire Antiestática FRWJT NFPA 13034 Azul Marino T-M</DscItem>
+          <QtyItem>4.000000</QtyItem>
+          <PrcItem>89600.000000</PrcItem>
+          <MontoItem>358400</MontoItem>
+        </Detalle>
+        <Detalle>
+          <NroLinDet>3</NroLinDet>
+          <CdgItem>
+            <TpoCodigo>INT</TpoCodigo>
+            <VlrCodigo>12-06-721-T-L</VlrCodigo>
+          </CdgItem>
+          <CdgItem>
+            <TpoCodigo>QBLI</TpoCodigo>
+            <VlrCodigo>0</VlrCodigo>
+          </CdgItem>
+          <NmbItem>Camisa Ignifuga Absolute Fire EN11612 +</NmbItem>
+          <DscItem>Camisa Ignifuga Absolute Fire EN11612 + AS 9,5cal Azul T-L</DscItem>
+          <QtyItem>18.000000</QtyItem>
+          <PrcItem>24200.000000</PrcItem>
+          <MontoItem>435600</MontoItem>
+        </Detalle>
+        <Detalle>
+          <NroLinDet>4</NroLinDet>
+          <CdgItem>
+            <TpoCodigo>INT</TpoCodigo>
+            <VlrCodigo>12-06-721-T-M</VlrCodigo>
+          </CdgItem>
+          <CdgItem>
+            <TpoCodigo>QBLI</TpoCodigo>
+            <VlrCodigo>0</VlrCodigo>
+          </CdgItem>
+          <NmbItem>Camisa Ignifuga Absolute Fire EN11612 +</NmbItem>
+          <DscItem>Camisa Ignifuga Absolute Fire EN11612 + AS 9,5cal Azul T-M</DscItem>
+          <QtyItem>10.000000</QtyItem>
+          <PrcItem>24200.000000</PrcItem>
+          <MontoItem>242000</MontoItem>
+        </Detalle>
+        <Detalle>
+          <NroLinDet>5</NroLinDet>
+          <CdgItem>
+            <TpoCodigo>INT</TpoCodigo>
+            <VlrCodigo>12-06-721-T-2XL</VlrCodigo>
+          </CdgItem>
+          <CdgItem>
+            <TpoCodigo>QBLI</TpoCodigo>
+            <VlrCodigo>0</VlrCodigo>
+          </CdgItem>
+          <NmbItem>Camisa Ignifuga Absolute Fire EN11612 +</NmbItem>
+          <DscItem>Camisa Ignifuga Absolute Fire EN11612 + AS 9,5cal Azul T-2XL</DscItem>
+          <QtyItem>8.000000</QtyItem>
+          <PrcItem>24200.000000</PrcItem>
+          <MontoItem>193600</MontoItem>
+        </Detalle>
+        <Detalle>
+          <NroLinDet>6</NroLinDet>
+          <CdgItem>
+            <TpoCodigo>INT</TpoCodigo>
+            <VlrCodigo>12-06-721-T-XL</VlrCodigo>
+          </CdgItem>
+          <CdgItem>
+            <TpoCodigo>QBLI</TpoCodigo>
+            <VlrCodigo>0</VlrCodigo>
+          </CdgItem>
+          <NmbItem>Camisa Ignifuga Absolute Fire EN11612 +</NmbItem>
+          <DscItem>Camisa Ignifuga Absolute Fire EN11612 + AS 9,5cal Azul T-XL</DscItem>
+          <QtyItem>4.000000</QtyItem>
+          <PrcItem>24200.000000</PrcItem>
+          <MontoItem>96800</MontoItem>
+        </Detalle>
+        <Detalle>
+          <NroLinDet>7</NroLinDet>
+          <CdgItem>
+            <TpoCodigo>INT</TpoCodigo>
+            <VlrCodigo>12-06-721-T-S</VlrCodigo>
+          </CdgItem>
+          <CdgItem>
+            <TpoCodigo>QBLI</TpoCodigo>
+            <VlrCodigo>0</VlrCodigo>
+          </CdgItem>
+          <NmbItem>Camisa Ignifuga Absolute Fire EN11612 +</NmbItem>
+          <DscItem>Camisa Ignifuga Absolute Fire EN11612 + AS 9,5cal Azul T-S</DscItem>
+          <QtyItem>4.000000</QtyItem>
+          <PrcItem>24200.000000</PrcItem>
+          <MontoItem>96800</MontoItem>
+        </Detalle>
+        <Detalle>
+          <NroLinDet>8</NroLinDet>
+          <CdgItem>
+            <TpoCodigo>INT</TpoCodigo>
+            <VlrCodigo>06-01-379-T-L</VlrCodigo>
+          </CdgItem>
+          <CdgItem>
+            <TpoCodigo>QBLI</TpoCodigo>
+            <VlrCodigo>0</VlrCodigo>
+          </CdgItem>
+          <NmbItem>Parka Ignifuga Absolute Fire Antiestátic</NmbItem>
+          <DscItem>Parka Ignifuga Absolute Fire Antiestática FRWJT NFPA 13034 Azul Marino T-L</DscItem>
+          <QtyItem>4.000000</QtyItem>
+          <PrcItem>89600.000000</PrcItem>
+          <MontoItem>358400</MontoItem>
+        </Detalle>
+        <Detalle>
+          <NroLinDet>9</NroLinDet>
+          <CdgItem>
+            <TpoCodigo>INT</TpoCodigo>
+            <VlrCodigo>06-01-379-T-2XL</VlrCodigo>
+          </CdgItem>
+          <CdgItem>
+            <TpoCodigo>QBLI</TpoCodigo>
+            <VlrCodigo>0</VlrCodigo>
+          </CdgItem>
+          <NmbItem>Parka Ignifuga Absolute Fire Antiestátic</NmbItem>
+          <DscItem>Parka Ignifuga Absolute Fire Antiestática FRWJT NFPA 13034 Azul Marino T-2XL</DscItem>
+          <QtyItem>1.000000</QtyItem>
+          <PrcItem>89600.000000</PrcItem>
+          <MontoItem>89600</MontoItem>
+        </Detalle>
+        <Referencia>
+          <NroLinRef>1</NroLinRef>
+          <TpoDocRef>801</TpoDocRef>
+          <FolioRef>1017248</FolioRef>
+          <FchRef>2026-04-21</FchRef>
+        </Referencia>
+        <TED version="1.0">
+          <DD>
+            <RE>96542490-3</RE>
+            <TD>33</TD>
+            <F>3003224</F>
+            <FE>2026-05-18</FE>
+            <RR>79705390-2</RR>
+            <RSR>Transportes Santa Maria  SpA.</RSR>
+            <MNT>2333352</MNT>
+            <IT1>Parka Ignifuga Absolute Fire Antiestátic</IT1>
+            <CAF version="1.0">
+              <DA>
+                <RE>96542490-3</RE>
+                <RS>TRECK S A</RS>
+                <TD>33</TD>
+                <RNG>
+                  <D>2920334</D>
+                  <H>3010333</H>
+                </RNG>
+                <FA>2026-01-12</FA>
+                <RSAPK>
+                  <M>udwkZ2KYArM3k5d6jFZd/3FwKo6qH0++r7dWsb2ai+xBTTWuRtm2ZIdup/hvTlQJrJZrxu5LnVj033SLX36dDw==</M>
+                  <E>Aw==</E>
+                </RSAPK>
+                <IDK>300</IDK>
+              </DA>
+              <FRMA algoritmo="SHA1withRSA">miPIPUtPoswJ8WADqROrB8tcq5NfPraJFQeoVOrHkfuaoVibP85gq1iLG7AIB+kIGV3lBBnoyeXzc9W2KLjNKQ==</FRMA>
+            </CAF>
+            <TSTED>2026-05-16T11:27:18</TSTED>
+          </DD>
+          <FRMT algoritmo="SHA1withRSA">RlbYrnGnAVPhljmFn1LYl1sk34luGz8OhXypgJL/0MRLZx6MLX113Tc89kHPqHfLH3u4xvWVBOCxuSYjOmbFoQ==</FRMT>
+        </TED>
+        <TmstFirma>2026-05-16T11:27:22</TmstFirma>
+      </Documento><Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI="#F3003224T33"><Transforms><Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>/m7047FL5zMsdiGvygfr96gWb1s=</DigestValue></Reference></SignedInfo><SignatureValue>
+oU4OmmFnjvMyE84k1qlWVQ7kWdfIDnlWQRkE8YuiB1lzHpWL20MMKHQMRltKxlX7
+BYbwBmo2KoT2Yj9/6TkUJS3Gw8FsxLT0WE7QYuG4uJcdhK/cM0KJYrXwMB9jcJoI
+S/SnCZk7EhdRvq74cdt+K60OHxssCG0xQdQQYdSumqcyiuiqK3IFQNuybXjbWt6j
+KHoPatYF741ZkZAlYw7dauEAXCo7nCEPhYWYuVF7oUuGD4EfA9Ic2cvl9X5Qj8zb
+dwUbLJ7neSLmyLul/wh781W4Uc7TNad4h1+y1Mzz2f6lDXPH7yqTtZ5Z9BIQFaCs
+hp6QF30/LTJDEukPGz+Agw==
+</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>
+xLA3tAcpr90UJY/ShS6zddOVSs4LJI591w4KIk0qKCM7FjXAnS6iEgPIJVGb4IGJ
+csf/ZgdErY3eva0dqA2+LdrfRziaHsk9chDlMIXN5H60AAGX7x2aGltE3mcYbW3c
+vDC5I4JgtT1mS2XJ9Gcrqfo9HcAcd7O/nG4U+qqDPNmZNYuBX9YaawDxdTYBEDHd
+3SidcjEzIO3rGn46LYZHK55Gq6N9IJrWzOyauF6BePrhz32TR0Eh97qvTedqvhUx
+NAo2s0Il/d7wxsYhS5yzhaYhAtt+BSi32Cunt8iBZ0pFAMCDJUVAM62qSQvdsbRV
+t4E5sVl8sJOj25ooX4Jf8Q==
+</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>
+MIIHuTCCBaGgAwIBAgIKQeogVQABAA6B8DANBgkqhkiG9w0BAQsFADCBvzELMAkG
+A1UEBhMCQ0wxHTAbBgNVBAgTFFJlZ2lvbiBNZXRyb3BvbGl0YW5hMREwDwYDVQQH
+EwhTYW50aWFnbzEUMBIGA1UEChMLRS1DRVJUQ0hJTEUxIDAeBgNVBAsTF0F1dG9y
+aWRhZCBDZXJ0aWZpY2Fkb3JhMR4wHAYDVQQDExVFLUNFUlRDSElMRSBDQSBGRVMg
+MDIxJjAkBgkqhkiG9w0BCQEWF3NjbGllbnRlQGUtY2VydGNoaWxlLmNsMB4XDTI1
+MDYwMzIwMTcwNVoXDTI4MDYwMjIwMTcwNVowgbUxCzAJBgNVBAYTAkNMMSIwIAYD
+VQQIExlNRVRST1BPTElUQU5BIERFIFNBTlRJQUdPMREwDwYDVQQHEwhTQU5USUFH
+TzERMA8GA1UEChMIVFJFQ0sgU0ExCjAIBgNVBAsMASoxKTAnBgNVBAMTIFNFQkFT
+VElBTiBQRURSTyBST0RJTExPIEhBRkVNQU5OMSUwIwYJKoZIhvcNAQkBFhZQQUJM
+Ty5WQVNRVUVaQFRSRUNLLkNMMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKC
+AQEAxLA3tAcpr90UJY/ShS6zddOVSs4LJI591w4KIk0qKCM7FjXAnS6iEgPIJVGb
+4IGJcsf/ZgdErY3eva0dqA2+LdrfRziaHsk9chDlMIXN5H60AAGX7x2aGltE3mcY
+bW3cvDC5I4JgtT1mS2XJ9Gcrqfo9HcAcd7O/nG4U+qqDPNmZNYuBX9YaawDxdTYB
+EDHd3SidcjEzIO3rGn46LYZHK55Gq6N9IJrWzOyauF6BePrhz32TR0Eh97qvTedq
+vhUxNAo2s0Il/d7wxsYhS5yzhaYhAtt+BSi32Cunt8iBZ0pFAMCDJUVAM62qSQvd
+sbRVt4E5sVl8sJOj25ooX4Jf8QIDAQABo4ICvTCCArkwggFfBgNVHSAEggFWMIIB
+UjCCAU4GCCsGAQQBw1IFMIIBQDA9BggrBgEFBQcCARYxaHR0cHM6Ly93d3cuZS1j
+ZXJ0Y2hpbGUuY2wvcG9saXRpY2FzLXktcHJhY3RpY2FzLzCB/gYIKwYBBQUHAgIw
+gfEege4ARQBsACAAcgBlAHMAcABvAG4AZABlAHIAIABlAHMAdABlACAAZgBvAHIA
+bQB1AGwAYQByAGkAbwAgAGUAcwAgAHUAbgAgAHIAZQBxAHUAaQBzAGkAdABvACAA
+aQBuAGQAaQBzAHAAZQBuAHMAYQBiAGwAZQAgAHAAYQByAGEAIABkAGEAcgAgAGkA
+bgBpAGMAaQBvACAAYQBsACAAcAByAG8AYwBlAHMAbwAgAGQAZQAgAGMAZQByAHQA
+aQBmAGkAYwBhAGMAaQDzAG4ALgAgAFAAbwBzAHQAZQByAGkAbwByAG0AZQBuAHQA
+ZQAsMB0GA1UdDgQWBBTt6jNKuER5cSziVFlHg4bHaTi7OjALBgNVHQ8EBAMCBPAw
+IwYDVR0RBBwwGqAYBggrBgEEAcEBAaAMFgowNDc3OTI0OS01MB8GA1UdIwQYMBaA
+FHTWIbP0WugtfLtZBmND72m0OpMEMEAGA1UdHwQ5MDcwNaAzoDGGL2h0dHA6Ly9j
+cmwuZWNlcnRjaGlsZS5jbC9FLUNFUlRDSElMRUNBRkVTMDIuY3JsMD0GCCsGAQUF
+BwEBBDEwLzAtBggrBgEFBQcwAYYhaHR0cDovL29jc3BmZXMuZWNlcnRjaGlsZS5j
+bC9vY3NwMDwGCSsGAQQBgjcVBwQvMC0GJSsGAQQBgjcVCIHd0k2X1DqGiZ0Gh4jO
+b4OvzGBFhtLsCIbHyn0CAWQCAQcwIwYDVR0SBBwwGqAYBggrBgEEAcEBAqAMFgo5
+NjkyODE4MC01MA0GCSqGSIb3DQEBCwUAA4ICAQCDHbgf4ogI6EYZBr7BMzm/rERn
+kM643EuI0QjsiYI82K/gtZGgOaNq7enzgRDcPSpaPeO9s6XnKVYwMVBKHLMAGELl
+UBoBEB/yi/Gf/x7ythw2/ENkByt+JrB25+NcMSY/0OBaq0sifmus3Ppnw+4mRlgV
+0nizxfNPiv5sRa7rWnggygZ4YGeyU4td+9sXTTq+fLTEzjpL7P8oQCPh9D6enW+x
+ca97ACISpR4Ndp8bpdibkT0EVODc38tx5jhpBMRJI/bxtId7IoUBcZCRKoIHLyT1
+MiEaKQ2kBurqIGXDXKR3yKeabzXzdQ81vqJo5PmEkhwSZOYKM5ipk9OsxLWGg+Hj
+afziiHMTd31wrLmpTBRnPcLZHvtOhnvqEdxNQeQkzO+lnVGhjPgLgYrUt+5bOKoR
+LVGbGqyR9nhSGOJHB8pcmTVHXzBoKsoel1u0wZssDyXneYnIj5wTeomiGXOKsr0f
+kAKbry/QS32jKo4JwAO2coaPLco8UGn6/2ttSK6nzqOh5D7i77s2bf+OG5JxAW2a
+pj6d/+mUVD0e1VtDkr6QBbQrAarBsHm3lrSN60jAFzrVZq1lDv8AqnKPUn60UgC9
+RKywwMa12iKgFykhx6UxWEXEpklkRnvejUVNeWk/4cNSr2PapnJr3Yfo9QgNMes2
+ErWkPKQkIOuCvCQZYQ==
+</X509Certificate></X509Data></KeyInfo></Signature>
+    </DTE></SetDTE><Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI="#IDcd81d9f1191741259f79401dcb149977"><Transforms><Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><DigestValue>WuXCrH/pR4ZBYg6XgWtdh/36FboQ0MCG2Xb8hnafv1s=</DigestValue></Reference></SignedInfo><SignatureValue>
+T0jt7z1O5ooyLfpgrKpOZoUrkzdroiVB43sOwnltY69ss8iro83INuu/N77j98nR
+v7ectqYtqOQk95LQJFpkWnEBSvgC40uhvL9wcZxRyk8x0DdNvCVHP8A6irg1sztE
+ogQad9rOwqpgay12rVZjZyvQLUn6nSkXUNwyNYW0gsLSVdV+PG+AQOw0HUP6PGpn
+ixWcpUjQDCzjhHrJALUwYlNbsOFbLxmr5cR7ViQbc0PrIpRYNTMZ2mfPBxu0SoE/
+J4uAp6eZRXVfyxaEdS3Ay2ay7pEuw4EmxvtypB6+OrqJ6pLXwxvQNR+9rOEBrW70
+RsxrVG+E+pem5nxLa2NV+w==
+</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>
+kreLL4RaYUMOkJQ4XeefRcXm7KqxUZoutyFUdfS8PTyKd8iNdMYmr7iw4VM27Ncj
+2q1jtIKysWr4H14Nj+ZI1dKAqu4Go5aRoMx8JkYZQT8HlcbctEKB+GDzJWQlP8MU
+CKZFuNg9XsmUjohtnA/Mdbmx8Er0T1FX/6NlAPma0ZIBV8/fDeGD+P7I6E4fUn50
+dZ/5LqmLXfFCMrMam57kwzzMRe4Gv84TPeoxs5J5cTiEZ6YPKLznXpDKnm6AzomD
+OUigjv/CZL6yODsKpuKKsn871OUgDuiffFxF9QxmTeybQVxyN9YL6jht75oEb1Nu
+o9GIN9mCuj9WO7yAEoSHvw==
+</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>
+MIIGTjCCBTagAwIBAgIIRyE7boODR2AwDQYJKoZIhvcNAQELBQAwga8xCzAJBgNV
+BAYTAkNMMRQwEgYDVQQKDAtFLVNpZ24gUy5BLjE5MDcGA1UECwwwVGVybXMgb2Yg
+dXNlIGF0IHd3dy5lc2lnbi1sYS5jb20vYWN1ZXJkb3RlcmNlcm9zMSswKQYDVQQD
+DCJFLVNpZ24gQ2xhc3MgMiBGaXJtYSBUcmlidXRhcmlhIENBMSIwIAYJKoZIhvcN
+AQkBFhNlLXNpZ25AZXNpZ24tbGEuY29tMB4XDTI1MDUyMDEzNTMwMFoXDTI4MDQx
+NTE4NDIwNlowga0xCzAJBgNVBAYTAkNMMRQwEgYDVQQKDAtFLVNpZ24gUy5BLjE5
+MDcGA1UECwwwVGVybXMgb2YgdXNlIGF0IHd3dy5lc2lnbi1sYS5jb20vYWN1ZXJk
+b3RlcmNlcm9zMSkwJwYDVQQDDCBDcmlzdGlhbiBVbGlzZXMgUm9qYXMgR3V0acOp
+cnJlejEiMCAGCSqGSIb3DQEJARYTY3JvamFzQGdkZXhwcmVzcy5jbDCCASIwDQYJ
+KoZIhvcNAQEBBQADggEPADCCAQoCggEBAJK3iy+EWmFDDpCUOF3nn0XF5uyqsVGa
+LrchVHX0vD08infIjXTGJq+4sOFTNuzXI9qtY7SCsrFq+B9eDY/mSNXSgKruBqOW
+kaDMfCZGGUE/B5XG3LRCgfhg8yVkJT/DFAimRbjYPV7JlI6IbZwPzHW5sfBK9E9R
+V/+jZQD5mtGSAVfP3w3hg/j+yOhOH1J+dHWf+S6pi13xQjKzGpue5MM8zEXuBr/O
+Ez3qMbOSeXE4hGemDyi8516Qyp5ugM6JgzlIoI7/wmS+sjg7CqbiirJ/O9TlIA7o
+n3xcRfUMZk3sm0FccjfWC+o4be+aBG9TbqPRiDfZgro/Vju8gBKEh78CAwEAAaOC
+AmwwggJoMIGABggrBgEFBQcBAQR0MHIwSgYIKwYBBQUHMAKGPmh0dHA6Ly9wa2ku
+ZXNpZ24tbGEuY29tL2NhY2VydHMvcGtpQ2xhc3MyRmlybWFUcmlidXRhcmlhQ0Eu
+Y3J0MCQGCCsGAQUFBzABhhhodHRwOi8vb2NzcC5lc2lnbi1sYS5jb20wHQYDVR0O
+BBYEFHEwrIbdYcil4pnX38MVB3GWK8LsMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgw
+FoAU+Ur6wsduwucSnFdFNYQabSjpSqQwgcgGA1UdIASBwDCBvTCBugYMKwYBBAGC
+ymoBBAECMIGpMH4GCCsGAQUFBwICMHIecABDAGUAcgB0AGkAZgBpAGMAYQBkAG8A
+IABwAGEAcgBhACAAdQBzAG8AIABUAHIAaQBiAHUAdABhAHIAaQBvACwAIABDAG8A
+bQBlAHIAYwBpAG8ALAAgAFAAYQBnAG8AcwAgAHkAIABPAHQAcgBvAHMwJwYIKwYB
+BQUHAgEWG2h0dHA6Ly93d3cuZXNpZ24tbGEuY29tL2NwczBRBgNVHR8ESjBIMEag
+RKBChkBodHRwOi8vcGtpLmVzaWduLWxhLmNvbS9jcmwvcGtpQ2xhc3MyRmlybWFU
+cmlidXRhcmlhL2VuZHVzZXIuY3JsMA4GA1UdDwEB/wQEAwIFoDAdBgNVHSUEFjAU
+BggrBgEFBQcDAgYIKwYBBQUHAwQwIwYDVR0RBBwwGqAYBggrBgEEAcEBAaAMFgox
+MDk3NDM3Ny0xMCMGA1UdEgQcMBqgGAYIKwYBBAHBAQKgDBYKOTk1NTE3NDAtSzAN
+BgkqhkiG9w0BAQsFAAOCAQEARqCUp8DCJIdJWAt1k+dn+RQqBdzm3VT/0FcdJeCw
+AzhrMHhZb7Mmal4pVH9Jy2pHYsR8ZbVWZynKaagjIsiCLTuKMAATxmkP7IrvDP1x
+t56ClFgilfUJnyE4m9ZaSSk8oN0dQdC3ew99pWVhoACk+2ZiGz2k33ZnkucTXldS
+T/8n0/bc+5kGS2N4z/2DeIC0WhKg3wZ95gXVTAVnIp0J0bIJo/fkPsD+EwxKVNBX
+W6Ss5/QisjqI206BY5gNF+dWrjFzn5/gbJrm6BE9Cg5KR+bsOXUXBUUcPBzzyW9x
+cz45yxKcw8F88VTRNSRzk9Zjth2nfylY2QlH1tryfxY4wA==
+</X509Certificate></X509Data></KeyInfo></Signature>
+</EnvioDTE>

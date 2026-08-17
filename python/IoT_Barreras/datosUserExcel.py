@@ -27,23 +27,8 @@ if response.status_code == 200:
     # La solicitud fue exitosa
     data = response.json()
 
-    # Crear un nuevo DataFrame
-    df = pd.DataFrame()
-
-    # Agregar columnas al DataFrame
-    df['pin'] = ''
-    df['name'] = ''
-    df['lastName'] = ''
-    df['accLevelIds'] = ''
-
-# Escribir datos en el DataFrame
-    for item in data['data']:
-        pin = str(item['pin'])
-        name = str(item['name'])
-        lastname = str(item['lastName'])
-        accLevelIds = str(item['accLevelIds'])
-        df.loc[len(df.index)] = [pin, name, lastname, accLevelIds]
-
+    # Escribir datos en el DataFrame
+    df = pd.DataFrame(data['data'])
 
     # Guardar el DataFrame en un archivo Excel
     df.to_excel("datos.xlsx", index=False)

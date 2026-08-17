@@ -129,10 +129,10 @@ def user_login():
 def connect_to_db_tsm():
     try:
         conn = psycopg2.connect(
-            host="192.168.1.29",
+            host="adempiere.tsm.cl",
             database="tsm",
-            user="api",
-            password="Api2022"
+            user="pg_api",
+            password="8YR53mDRavJlfd6d"
         )
         print("Connected to the database")
         return conn

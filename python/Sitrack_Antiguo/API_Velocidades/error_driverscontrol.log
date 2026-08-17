@@ -1,0 +1,50 @@
+2024-07-10 12:16:59,424 ERROR __main__ Error en la inserción de datos: no existe la columna «ad_client_id» en la relación «i_driverscontrol»
+LINE 1: INSERT INTO api.i_driverscontrol (ad_client_id, ad_org_id, a...
+                                          ^
+
+2024-07-10 12:16:59,424 ERROR __main__ Datos con error: (1000000, 0, 'PETROAMERICA MAIPU VEL 80', 'Exc.Vel.Geocerca', '2024-07-10 12:16:59', 100, '2024-07-10 09:29:00', 'Integracion con Sitrack', None, '', 'PETROAMERICA MAIPU', 'HVTD95', 'Y', -33.4186, -70.7821, '80.0', 'N', 81.0, None, 'VE', '2024-07-10 12:16:59', 100, 'N', None, 'Vespucio Enlace Costanera-San Pablo')
+2024-07-10 12:16:59,430 ERROR __main__ Error en la inserción de datos: no existe la columna «ad_client_id» en la relación «i_driverscontrol»
+LINE 1: INSERT INTO api.i_driverscontrol (ad_client_id, ad_org_id, a...
+                                          ^
+
+2024-07-10 12:16:59,430 ERROR __main__ Datos con error: (1000000, 0, 'CBB INTERNACIONAL VEL 80', 'Exc.Vel.Geocerca', '2024-07-10 12:16:59', 100, '2024-07-10 09:31:50', 'Integracion con Sitrack', None, 'GUILLERMO PAEZ ROBERTO', 'CBB SILOS INTERNACIONAL', 'PLCY52', 'Y', -30.45124, -68.68276, '80', 'N', 81.0, None, 'VE', '2024-07-10 12:16:59', 100, 'N', None, '')
+2024-07-10 12:16:59,442 ERROR __main__ Error en la inserción de datos: no existe la columna «ad_client_id» en la relación «i_driverscontrol»
+LINE 1: INSERT INTO api.i_driverscontrol (ad_client_id, ad_org_id, a...
+                                          ^
+
+2024-07-10 12:16:59,442 ERROR __main__ Datos con error: (1000000, 0, 'PETROAMERICA THNO VEL 80', 'Exc.Vel.Geocerca', '2024-07-10 12:16:59', 100, '2024-07-10 09:55:05', 'Integracion con Sitrack', None, 'LUIS EMETERIO GUZMAN MORA', 'PETROAMERICA THNO', 'JKDC19', 'Y', -36.81388, -72.98055, '80.0', 'N', 86.0, None, 'VE', '2024-07-10 12:16:59', 100, 'N', None, 'MAX 80 KM-CABRERO')
+2024-07-10 12:16:59,447 ERROR __main__ Error en la inserción de datos: no existe la columna «ad_client_id» en la relación «i_driverscontrol»
+LINE 1: INSERT INTO api.i_driverscontrol (ad_client_id, ad_org_id, a...
+                                          ^
+
+2024-07-10 12:16:59,447 ERROR __main__ Datos con error: (1000000, 0, 'PROLESUR VEL 50', 'Exc.Vel.Geocerca', '2024-07-10 12:16:59', 100, '2024-07-10 10:48:31', 'Integracion con Sitrack', None, 'ARMIN ALEJANDRO DIAZ GENEL', 'PROLESUR', 'HVLS75', 'Y', -41.43374, -73.4555, '50.0', 'N', 51.0, None, 'VE', '2024-07-10 12:16:59', 100, 'N', None, 'Camino Interior Productor Pedro Velasquez 50 km/h')
+2024-07-10 12:16:59,453 ERROR __main__ Error en la inserción de datos: no existe la columna «ad_client_id» en la relación «i_driverscontrol»
+LINE 1: INSERT INTO api.i_driverscontrol (ad_client_id, ad_org_id, a...
+                                          ^
+
+2024-07-10 12:16:59,453 ERROR __main__ Datos con error: (1000000, 0, 'PROLESUR VEL 50', 'Exc.Vel.Geocerca', '2024-07-10 12:16:59', 100, '2024-07-10 11:03:32', 'Integracion con Sitrack', None, 'ARMIN ALEJANDRO DIAZ GENEL', 'PROLESUR', 'HVLS75', 'Y', -41.43016, -73.41885, '50.0', 'N', 54.0, None, 'VE', '2024-07-10 12:16:59', 100, 'N', None, 'RUTA V-690 LOS MUERMOS')
+2024-07-10 12:16:59,458 ERROR __main__ Error en la inserción de datos: no existe la columna «ad_client_id» en la relación «i_driverscontrol»
+LINE 1: INSERT INTO api.i_driverscontrol (ad_client_id, ad_org_id, a...
+                                          ^
+
+2024-07-10 12:16:59,458 ERROR __main__ Datos con error: (1000000, 0, 'CBB INTERNACIONAL VEL 80', 'Exc.Vel.Geocerca', '2024-07-10 12:16:59', 100, '2024-07-10 11:21:25', 'Integracion con Sitrack', None, 'GUILLERMO PAEZ ROBERTO', 'CBB SILOS INTERNACIONAL', 'PLCY52', 'Y', -31.48148, -68.52102, '80.0', 'N', 81.0, None, 'VE', '2024-07-10 12:16:59', 100, 'N', None, '80 KPH Km RUTA 40 MEDIA AGUA SAN JUAN')
+2024-07-10 12:16:59,464 ERROR __main__ Error en la inserción de datos: no existe la columna «ad_client_id» en la relación «i_driverscontrol»
+LINE 1: INSERT INTO api.i_driverscontrol (ad_client_id, ad_org_id, a...
+                                          ^
+
+2024-07-10 12:16:59,464 ERROR __main__ Datos con error: (1000000, 0, 'Las Chilcas 50-80 km/h', 'Exc.Vel.Geocerca', '2024-07-10 12:16:59', 100, '2024-07-10 11:31:13', 'Integracion con Sitrack', None, '', 'CBB SILOS INTERNACIONAL', 'PLCY57', 'Y', -32.86383, -70.85684, '50.0', 'N', 59.0, None, 'VE', '2024-07-10 12:16:59', 100, 'N', None, 'CUESTA LAS CHILCAS (74,8 - 78)')
+2024-07-10 12:16:59,469 ERROR __main__ Error en la inserción de datos: no existe la columna «ad_client_id» en la relación «i_driverscontrol»
+LINE 1: INSERT INTO api.i_driverscontrol (ad_client_id, ad_org_id, a...
+                                          ^
+
+2024-07-10 12:16:59,469 ERROR __main__ Datos con error: (1000000, 0, 'Las Chilcas 50-80 km/h', 'Exc.Vel.Geocerca', '2024-07-10 12:16:59', 100, '2024-07-10 11:33:38', 'Integracion con Sitrack', None, '', 'CBB SILOS INTERNACIONAL', 'PLCY57', 'Y', -32.85358, -70.86804, '50.0', 'N', 52.0, None, 'VE', '2024-07-10 12:16:59', 100, 'N', None, 'CUESTA LAS CHILCAS (74,8 - 78)')
+2024-07-10 12:16:59,475 ERROR __main__ Error en la inserción de datos: no existe la columna «ad_client_id» en la relación «i_driverscontrol»
+LINE 1: INSERT INTO api.i_driverscontrol (ad_client_id, ad_org_id, a...
+                                          ^
+
+2024-07-10 12:16:59,475 ERROR __main__ Datos con error: (1000000, 0, 'CBB INTERNACIONAL VEL 80', 'Exc.Vel.Geocerca', '2024-07-10 12:16:59', 100, '2024-07-10 11:38:02', 'Integracion con Sitrack', None, 'GUILLERMO PAEZ ROBERTO', 'CBB SILOS INTERNACIONAL', 'PLCY52', 'Y', -31.62193, -68.53236, '80.0', 'N', 82.0, None, 'VE', '2024-07-10 12:16:59', 100, 'N', None, '80 KPH Km RUTA 40 MEDIA AGUA SAN JUAN')
+2024-07-10 12:16:59,482 ERROR __main__ Error en la inserción de datos: no existe la columna «ad_client_id» en la relación «i_driverscontrol»
+LINE 1: INSERT INTO api.i_driverscontrol (ad_client_id, ad_org_id, a...
+                                          ^
+
+2024-07-10 12:16:59,482 ERROR __main__ Datos con error: (1000000, 0, 'S/N, Pica, Provincia del Tamarugal, Región de Tarapacá, Chile ', None, '2024-07-10 12:16:59', 100, '09-07-24 19:15:33', 'Integracion con Sitrack', '2024-07-10 09:49:15', 'FERNANDO ANTONIO MORENO VELASQUEZ', 'LINDE', 'SZBS25', 'Y', -20.9876, -68.776, None, 'N', None, '09-07-24 19:15:33', 'DE', '2024-07-10 12:16:59', 100, 'N', '1900-01-01 14:33:42')

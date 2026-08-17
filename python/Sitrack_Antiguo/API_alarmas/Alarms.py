@@ -23,7 +23,6 @@ try:
 
     # Se lee el contenido de la respuesta
     body = response.read().decode('utf-8')
-    print("Éxito en la conexión a la API")
 
     if response.getcode() == 200:
         try:

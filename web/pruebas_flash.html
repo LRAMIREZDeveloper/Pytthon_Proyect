@@ -1,0 +1,115 @@
+USE [INTEGRATION]
+GO
+/****** Object:  StoredProcedure [dbo].[p_payment]    Script Date: 19/08/2024 12:43:40 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+ALTER PROCEDURE [dbo].[p_payment] (@usermail varchar(30))
+AS
+ 
+DECLARE 
+   @tableHTML  NVARCHAR(MAX),
+   @name VARCHAR(50);
+   --@cc varchar(50);
+BEGIN
+ 
+       SELECT TOP 1 
+			@name = p.name
+	   FROM 
+			t_payment p
+	   WHERE 
+			p.email = @usermail;
+	   IF @usermail IS NOT NULL
+	   BEGIN  
+			SET @tableHTML = 
+    '<div class="adM"></div><div><div class="adM"></div><center>                                                        
+<table width="714" cellspacing="0" cellpadding="0" border="0">                                                                       
+<tbody><tr style="background-color:#004c84" height="70">            
+<td width="80"></td>                                               
+<td colspan="3"><img src="http://distam.cl/sitio/Firma/Logo_original.png" class="CToWUd" width="150" height="60"></td>
+<td width="80"></td>                                               
+</tr>                                                               
+<tr style="background-color:#a4a9ac" height="90">                   
+<td></td>                                                          
+<td colspan="3">                                                   
+<h1 style="font-weight:lighter;font-size:28px;color:#ffffff;font-family:Tahoma,Open Sans,sans-serif">Comprobante Transferencia de fondos</h1>                                                                                     
+</td>                                                              
+<td></td>                                                          
+</tr>                                                               
+<tr>                                                                
+<td></td>                                                          
+<td style="background-color:#ffffff" width="20"></td>              
+<td style="background-color:#ffffff;color:#444444;font-size:16px;padding-bottom:0px;padding-top:10px">                                                                                                                              
+<table width="100%">                                              
+<tbody>                                                          
+<tr style="font-size:14px;color:#444444">                       
+<td style="padding:5px" valign="bottom">                       
+<span style="margin-top:10px;margin-bottom:17px;font-weight:normal;font-family:Tahoma,Open Sans,sans-serif">                                                               
+											Estimado (a) ' + @name + ':                            
+											Le informamos que se han realizado los siguientes abonos a su cuenta corriente por parte de Transportes  
+	Santa María SpA, de acuerdo al siguiente detalle:</span>                                                       
+</td>                                                          
+<td valign="bottom" nowrap="nowrap" align="right"> </td>                                                                                                                         
+</tr>                                                           
+</tbody>                                                   
+</table>
+<br></br>' + 
+	 N'<table border="1" align="center" style="color:#444444">' +  
+     N'<tr>' +
+	 N'<th>Rut Destinatario</th>' +
+	 N'<th>Concepto de Pago</th>' +
+	 N'<th>Fecha</th>' +
+	 N'<th>Monto de la Operación</th>' +
+	 N'</tr>' +
+     CAST ( ( SELECT   td = p.rut, '',
+                       td = p.account, '',
+                       td = CONVERT(varchar, p.date, 105), '',
+					   td = REPLACE(REPLACE(CONVERT(VARCHAR, FORMAT(p.amt, 'N', 'en-us')), '.00', ''), ',','.'), ''
+               FROM t_payment p 
+	           WHERE p.email = @usermail
+			    ORDER BY p.date ASC
+    FOR XML PATH('tr'), TYPE ) AS NVARCHAR(MAX) ) +
+    N'</table>' +
+	'<table width="100%">                                              
+<tbody><tr>                                                      
+<td style="padding-top:15px;padding-bottom:15px">               
+</td>                                                              
+<td style="background-color:#ffffff" width="20"></td>              
+<td></td>                                                          
+</tr>                                                               
+<tr>                                                                
+<td></td>                                                          
+<td colspan="3" style="padding-bottom:10px;padding-top:10px;font-size:12px;color:#444444;text-align:center;font-family:Tahoma,Open Sans,sans-serif">                                                                                                                        
+<p>                                                                                   
+							Nota: Este e-mail es generado de manera automatica, por favor no 
+	respondas a este mensaje. Asimismo, se han omitido acentos para evitar 
+	problemas de compatibilidad.</p>                                                              
+<p>                                                                                       
+							Este mensaje fue enviado a traves de <a href="">Adempiere®</a>	
+<p align="center">
+<span>Departamento de tecnologías de la información</span><br>
+<strong><span>©2021 Derechos Reservados</span></strong><o:p></o:p></span></p>
+</p>                                                              
+</td>                                                              
+<td></td>                                                          
+</tr>                                                               
+</tbody></table>                                                     
+</center><div class="yj6qo"></div><div class="adL">                   
+</div></div><div class="adL">                                          
+</div>';
+			EXEC msdb.dbo.sp_send_dbmail 
+				@profile_name='ADempiere Mail',
+				@recipients= @usermail,
+				--@copy_recipients='privera@tsm.cl',
+				@subject = 'Comprobante Transferencia de fondos',  
+				@body = @tableHTML,  
+				@body_format = 'HTML';
+	   END
+	   ELSE
+	   BEGIN
+			RETURN null;
+	   END
+END;
+
+tiene menú contextual

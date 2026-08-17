@@ -10,7 +10,6 @@ logger = logging.getLogger(__name__)
 def main():
     USER_NAME, PASSWORD = user_login()
     server, _, _, context_odometer, _ = call_apis()
-
     try:
         response = connect_to_api(
             USER_NAME, PASSWORD, server, context_odometer)
@@ -23,7 +22,6 @@ def main():
     finally:
         response.close()
 
-    # Usa 'with' para manejar la conexión y el cursor
     with connect_to_db_tsm_nuevo() as connection:
         with connection.cursor() as cursor:
             if response.getcode() == 200:

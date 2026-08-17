@@ -187,8 +187,8 @@ def get_counts_for_pin(cur, pin):
 
 # Función para procesar los datos obtenidos de la API
 def process_api_data(data, cur, conn):
+    created = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
     for item in data.get('data', []):
-        created = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
         pin = str(item.get('pin', ''))
         dptname = str(item.get('deptName', ''))
         name = str(item.get('name', ''))
